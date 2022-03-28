@@ -1,0 +1,246 @@
+.section-1 {
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: -3rem auto 0 auto;
+    cursor: pointer;
+
+    .section-1-wrapper {
+        background-color: $Card-BG;
+        border-radius: 5px;
+        padding: 2rem;
+        text-align: center;
+        min-width: 340px;
+        transition: all .1s ease;
+
+        .card-handle {
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                margin-right: .5rem;
+            }
+
+            .card-username {
+                color: $text-blue;
+                font-weight: 600;
+            }
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            color: $white;
+            margin-top: 1rem;
+        }
+
+        .followers {
+            text-transform: uppercase;
+            color: $text-blue;
+            letter-spacing: 3px;
+        }
+
+        .track {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+
+            img {
+                margin-right: 0.2rem;
+            }
+
+            p {
+                font-weight: 600;
+            }
+
+            .track-text-1 {
+                color: $white;
+            }
+
+            .track-text-2, .track-text-3 {
+                color: $Lime-Green;
+            }
+
+            .track-text-4 {
+                color: $Bright-Red;
+            }
+        }
+
+        &:hover {
+            background-color: lighten($color: $Card-BG, $amount: 10);
+        }
+    }
+
+    .section-1-facebook {
+        border-top: 4px solid $Facebook;
+    }
+
+    .section-1-twitter {
+        border-top: 4px solid $Twitter;
+    }
+
+    .section-1-instagram {
+        position: relative;
+        .card-handle {
+            &::before {
+                content: '';
+                display: block;
+                height: 4px;
+                width: 100%;
+                background: $Instagram;
+                position: absolute;
+                top: 0;
+                border-radius: 5px 5px 0 0;
+            }
+        }
+    }
+
+    .section-1-youtube {
+        border-top: 4px solid $YouTube;
+    }
+}
+
+.section-2 {
+    // border: 1px solid green;
+    margin: 2rem auto 2rem auto;
+    width: 90%;
+    cursor: pointer;
+
+    h1 {
+        color: $white;
+
+    }
+
+    .section-2-card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.9rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.3rem;
+
+        .section-2-wrapper {
+            background-color: $Card-BG;
+            border-radius: 5px;
+            padding: 1.4rem;
+            text-align: center;
+            min-width: 340px;
+            transition: all .1s ease;
+
+            .reactions {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                p {
+                    color: $text-blue;
+                    font-weight: 600;
+                }
+            }
+
+            .reaction-count {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 1.3rem;
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                .percentage {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        margin-right: 0.1rem;
+                    }
+
+                    p {
+                        font-weight: 600;
+                    }
+
+                    .percentage-1, .percentage-3, .percentage-4, .percentage-5, .percentage-6 {
+                        color: $Lime-Green;
+                    }
+
+                    .percentage-2, .percentage-7, .percentage-8 {
+                        color: $Bright-Red;
+                    }
+                }
+            }
+
+            &:hover {
+                background-color: lighten($color: $Card-BG, $amount: 10);
+            }
+        }
+    }
+
+    
+}
+
+.section-1-light-theme {
+    .section-1-wrapper {
+        background-color: $Light-Grayish-Blue-Card-BG;
+
+        .card-handle {
+            .card-username {
+                color: $Dark-Grayish-Blue-Text;
+            }
+        }
+
+        h1 {
+            color: $Very-Dark-Blue-Text;
+        }
+
+        .followers {
+            color: $Dark-Grayish-Blue-Text;
+        }
+
+        .track {
+            .track-text-1 {
+                color: $Lime-Green;
+            }
+        }
+
+        &:hover {
+            background-color: darken($color: $Light-Grayish-Blue-Card-BG, $amount: 5);
+        }
+    }
+}
+
+.section-2-light-theme {
+    .section-2 {
+        h1 {
+            color: $Dark-Grayish-Blue-Text;
+        }
+
+        .section-2-wrapper {
+            background: $Light-Grayish-Blue-Card-BG;
+
+            .reactions {
+                p {
+                    color: $Dark-Grayish-Blue-Text;
+                }
+            }
+
+            .reaction-count {
+                h1 {
+                    color: $Very-Dark-Blue-Text;
+                }
+            }
+
+            &:hover {
+                background-color: darken($color: $Light-Grayish-Blue-Card-BG, $amount: 5);
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,18 @@
+.header {
+    .checkbox:checked + .label {
+        background: $Toggle-light;
+    }
+
+    .checkbox:checked + .label .ball {
+        background-color: $white;
+        transform: translateX(24.5px);
+    }
+}
+
+.body-light {
+    background: $white
+}
+
+.light-main {
+    background: $white;
+}
