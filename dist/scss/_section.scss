@@ -16,6 +16,7 @@
         text-align: center;
         min-width: 270px;
         transition: all .1s ease;
+        margin-top: 1rem;
 
         .card-handle {
             // border: 1px solid red;
@@ -130,8 +131,9 @@
             border-radius: 5px;
             padding: 1.4rem;
             text-align: center;
-            min-width: 340px;
+            min-width: 280px;
             transition: all .1s ease;
+            margin-top: 1rem;
 
             .reactions {
                 display: flex;

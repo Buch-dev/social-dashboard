@@ -114,6 +114,7 @@ body {
   text-align: center;
   min-width: 270px;
   transition: all .1s ease;
+  margin-top: 1rem;
 }
 
 .section-1 .section-1-wrapper .card-handle {
@@ -225,8 +226,9 @@ body {
   border-radius: 5px;
   padding: 1.4rem;
   text-align: center;
-  min-width: 340px;
+  min-width: 280px;
   transition: all .1s ease;
+  margin-top: 1rem;
 }
 
 .section-2 .section-2-card .section-2-wrapper .reactions {
