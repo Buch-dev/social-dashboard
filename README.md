@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Buch-dev/social-dashboard.git)
-- Live Site URL: [Add live site URL here](https://buch-dev.github.io/social-dashboard/)
+- Solution URL: [https://github.com/Buch-dev/social-dashboard.git]
+- Live Site URL: [https://buch-dev.github.io/social-dashboard/]
 
 ## My process
 

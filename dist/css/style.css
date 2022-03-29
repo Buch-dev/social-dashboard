@@ -1,13 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
   background: #1e202a;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
+  box-sizing: border-box;
   transition: background .1s linear;
 }
 
@@ -112,7 +112,7 @@ body {
   border-radius: 5px;
   padding: 2rem;
   text-align: center;
-  min-width: 340px;
+  min-width: 270px;
   transition: all .1s ease;
 }
 
@@ -365,10 +365,13 @@ body {
     margin: -4rem auto 0 auto;
   }
   .section-1 .section-1-wrapper {
-    min-width: 280px;
+    min-width: 210px;
+  }
+  .section-2 .section-2-card {
+    width: 100%;
   }
   .section-2 .section-2-card .section-2-wrapper {
-    min-width: 280px;
+    min-width: 225px;
   }
 }
 /*# sourceMappingURL=style.css.map */
